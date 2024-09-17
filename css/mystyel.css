@@ -1,0 +1,163 @@
+*{
+box-sizing: border-box;
+text-decoration: none;
+}
+
+
+.main-img {
+height: 560px;
+    position: relative;
+
+}
+
+.text{
+  
+    font-size: 80px;
+    color: rgb(254, 254, 253);
+    font-weight: 800;
+    line-height: 90px;
+    position: absolute;
+    top: 180px;
+    left:80px ;
+    
+} 
+.txt{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+   
+    color: rgb(254, 254, 253);
+    position: absolute;
+    top: 390px;
+    left:80px 
+}
+.home:hover,.about_btn,.cardd{
+background-color: red;
+
+.our-text{
+    font-size: 50px;
+
+    font-weight: 800;
+    line-height: 80px
+
+}
+
+}
+
+.about_bt{
+
+
+
+position: absolute;
+top: 440px;
+left: 80px;
+   
+}
+.call-bt{
+ 
+      
+
+position: absolute;
+top: 440px;
+left: 180px;
+
+}
+.haedimg{
+    font-size: 50px;
+
+    font-weight: 800;
+    line-height: 80px
+}
+
+.shop{
+    font-size: 50px;
+
+    font-weight: 800;
+    line-height: 80px;
+}
+.cof{
+    font-size: 40px;
+    
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.more{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}
+.section{
+    font-size: 40px;
+    
+    font-weight: 700;
+    line-height: 70px;
+}
+.name{
+
+    font-size: 30px;
+    
+    font-weight: 700;
+    line-height: 60px;
+}
+.text-p{
+    
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}
+.touch{
+    font-size: 40px;
+    
+    font-weight: 700;
+    line-height: 70px;
+}
+
+
+@media only screen and (max-width:768px){
+    .about-img{
+        
+        margin-top: 10px;
+    }
+    .customers-img {
+      
+        width: 365px;
+    }
+    .get-email {
+        width: 100%;
+        border-radius: 50px; background-color: rgb(216, 216, 217); 
+    }
+    
+}
+
+@media only screen and (min-width:768px){
+    
+    .customers-img {
+      
+        width: 265px;
+    }
+    .get-email {
+       margin-left: 300px;
+        width: 50%;
+        border-radius: 50px; background-color: rgb(216, 216, 217); 
+    }
+    .send-btn{
+        margin-left: 350;
+    }
+    .footer-text{
+        margin-bottom: 20px;
+        margin-left: 450px;
+        display: flex;
+    }
+    .enter-e{
+     
+        display: flex;
+    }
+    .enter-email{
+        
+        margin-left: 450px;
+    }
+     
+    
+    
+}
